@@ -1,0 +1,26 @@
+{
+  "name": "teststylelint",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mike",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-babel": "^7.0.0",
+    "gulp-postcss": "^7.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.4.1",
+    "gulp-stylelint": "^5.0.0",
+    "gulp-uglify": "^3.0.0",
+    "postcss-reporter": "^5.0.0",
+    "stylelint": "^8.2.0",
+    "stylelint-config-standard": "^17.0.0"
+  },
+  "dependencies": {
+    "postcss-scss": "^1.0.2"
+  }
+}
