@@ -11,7 +11,6 @@
         "selector-attribute-quotes": "always",
         "selector-attribute-operator-space-before": "never",
         "selector-attribute-operator-space-after": "never",
-        "selector-attribute-brackets-space-inside": "never",
         "declaration-block-trailing-semicolon": "always",
         "declaration-colon-space-before": "never",
         "declaration-colon-space-after": "always",

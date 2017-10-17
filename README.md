@@ -10,7 +10,7 @@
 
 #### Stylelint
 
-- Stylelint is set up to warn of any SCSS/CSS inconsistencies, errors. Please fix these before committing.
+- Stylelint is set up to warn of any SCSS/CSS inconsistencies, errors. Please fix these before committing. More info: https://stylelint.io/user-guide/rules/
 - The configuration is set in `.stylelintrc`. Feel free to add rules, but let others know.
 
 #### JS
