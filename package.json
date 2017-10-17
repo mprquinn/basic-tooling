@@ -8,12 +8,13 @@
   "author": "mike",
   "license": "ISC",
   "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^4.0.0",
     "gulp-babel": "^7.0.0",
     "gulp-postcss": "^7.0.0",
     "gulp-sass": "^3.1.0",
-    "gulp-sourcemaps": "^2.4.1",
+    "gulp-sourcemaps": "2.4.1",
     "gulp-stylelint": "^5.0.0",
     "gulp-uglify": "^3.0.0",
     "postcss-reporter": "^5.0.0",
@@ -22,5 +23,8 @@
   },
   "dependencies": {
     "postcss-scss": "^1.0.2"
+  },
+  "scripts": {
+    "js": "prettier --single-quote --trailing-comma es5 --write './js/**/*.js'"
   }
 }

@@ -13,12 +13,13 @@ const stylelint   = require('stylelint');
 
 gulp.task('default', function () {
   gulp.watch('./scss/**/*.scss', ['scss-lint', 'scss']);
+  gulp.watch('./js/**/*.js', ['min']);
 });
 
 gulp.task('min', function () {
     gulp.src('./js/**/*.js')
       .pipe(babel({
-          presets: ['es2015']
+          'presets': ['es2015']
       }))
       .pipe(uglify())
       .pipe(gulp.dest('./build/js'))
@@ -53,5 +54,5 @@ gulp.task('scss', function () {
     .pipe(sourcemaps.write('.', {
       sourceRoot: './build/css'
     }))
-    .pipe(gulp.dest('./css'));
+    .pipe(gulp.dest('./build/css'));
 });
