@@ -4,6 +4,10 @@
 
 ### Usage notes
 
+#### Folders
+
+- There are dummy src and build folders here. Feel free to delete and update the gulpfile sources as required.
+
 #### Stylelint
 
 - Stylelint is set up to warn of any SCSS/CSS inconsistencies, errors. Please fix these before committing.
