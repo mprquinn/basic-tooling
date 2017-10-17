@@ -25,6 +25,13 @@
     "postcss-scss": "^1.0.2"
   },
   "scripts": {
-    "js": "prettier --single-quote --trailing-comma es5 --write './js/**/*.js'"
+    "js": "prettier --single-quote --trailing-comma es5 --write './js/**/*.js'",
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "src/js/*.js": [
+      "prettier --single-quote --trailing-comma es5 --write",
+      "git add"
+    ]
   }
 }

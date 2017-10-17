@@ -12,7 +12,7 @@
 #### JS
 
 - JS compilation and transpiling is done automatically through gulp.
-- Before committing, please run `npm run js` to clean up src js files in order to maintain consistency. This will use https://github.com/prettier/prettier as the clean up rules.
+- A pre-commit hook will clean up all `.js` files located in the `/src/` directory. The cleanup will use prettier.js as a guideline.
 
 ### Issues
 

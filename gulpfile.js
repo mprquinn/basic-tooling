@@ -12,12 +12,12 @@ const syntax_scss = require('postcss-scss');
 const stylelint   = require('stylelint');
 
 gulp.task('default', function () {
-  gulp.watch('./scss/**/*.scss', ['scss-lint', 'scss']);
-  gulp.watch('./js/**/*.js', ['min']);
+  gulp.watch('./src/scss/**/*.scss', ['scss-lint', 'scss']);
+  gulp.watch('./src/js/**/*.js', ['min']);
 });
 
 gulp.task('min', function () {
-    gulp.src('./js/**/*.js')
+    gulp.src('./src/js/**/*.js')
       .pipe(babel({
           'presets': ['es2015']
       }))
@@ -34,13 +34,13 @@ gulp.task('scss-lint', function () {
     })
   ];
   return gulp.src(
-      ['./scss/**/*.scss']
+      ['./src/scss/**/*.scss']
     )
     .pipe(postcss(processors, {syntax: syntax_scss}));
 });
 
 gulp.task('scss', function () {
-  return gulp.src('./scss/**/*.scss')
+  return gulp.src('./src/scss/**/*.scss')
     .pipe(sourcemaps.init({
       loadMaps: true,
       identityMap: true

@@ -1,0 +1,1 @@
+{"version":3,"sources":["components/_component.scss"],"names":[],"mappings":"AAAA,KACC,kBAAmB,CACnB","file":"test.css","sourcesContent":["body {\r\n\tbackground: #efefef;\r\n}\r\n"],"sourceRoot":"build/css"}
