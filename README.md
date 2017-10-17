@@ -6,13 +6,13 @@
 
 #### Stylelint
 
-- Stylelint is set up to warn of any SCSS/CSS inconsistencies, errors. Please fix these before commiting.
+- Stylelint is set up to warn of any SCSS/CSS inconsistencies, errors. Please fix these before committing.
 - The configuration is set in `.stylelintrc`. Feel free to add rules, but let others know.
 
 #### JS
 
 - JS compilation and transpiling is done automatically through gulp.
-- Before commiting, please run `npm run js` to clean up src js files in order to maintain consistency. This will use (prettier)[https://github.com/prettier/prettier] as the clean up rules.
+- Before committing, please run `npm run js` to clean up src js files in order to maintain consistency. This will use https://github.com/prettier/prettier as the clean up rules.
 
 ### Issues
 
